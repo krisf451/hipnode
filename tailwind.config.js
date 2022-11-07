@@ -17,28 +17,24 @@ module.exports = {
       fontFamily: {
         DMSans: "'DM Sans', sans-serif",
         poppins: "'Poppins', sans-serif",
+        SSPro: "'Source Sans Pro', sans-serif",
       },
       colors: {
-        primaryGray: '#FAFAFB',
-        footerGray: '#F4F5F6',
-        primaryBlue: '#316BFF',
-        primaryRed: '#FF543D',
-        primaryPurple: '#878CFF',
-        secondaryYellow: '#FFAF4E',
-        secondaryTeal: '#A4CDE3',
-        cBlack: {
-          8: '#FCFCFD',
-          7: '#F4F5F6',
-          6: '#E7ECF3',
-          5: '#B1B5C3',
-          4: '#84878B',
-          3: '#3B3E44',
-          2: '#222529',
-          1: '#141416',
+        dark: {
+          1: 'black',
+          2: '#1E252B',
+          3: '#262D34',
+          4: '#2C353D',
+        },
+        cGray: {
+          1: '#F7F7F7',
+        },
+        cOrange: {
+          6: '#FF8F67',
+          8: '#FF571A',
         },
         cBlue: {
-          300: '#4089ff',
-          500: '#0E6CFF',
+          1: '#347AE2',
         },
       },
       animation: {
